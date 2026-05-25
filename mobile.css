@@ -80,6 +80,11 @@
 
   }
 
+  .page2-bottom{
+  margin: 0rem 0.5rem;
+  
+}
+
   .page2-btn{
   width: 50%;
   display: flex;
