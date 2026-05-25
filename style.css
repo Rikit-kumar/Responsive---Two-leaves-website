@@ -1,0 +1,235 @@
+@font-face {
+  font-family: reckless;
+  src: url(./fonts/RecklessCondensedS-TRIAL-Book.woff);
+}
+
+@font-face {
+  font-family: figtree;
+  src: url(./fonts/figtree_n4.3c0838aba1701047e60be6a99a1b0a40ce9b8419.woff2);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+}
+
+body {
+  background-color: #fbf9eb;
+  margin: 0;
+}
+
+nav {
+    margin-top: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fffefb;
+  font-family: reckless;
+  padding: 0.8rem 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.253);
+  border-radius: 1rem;
+}
+
+nav .nav-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+nav .nav-left .nav-left-mobile{
+    display: none;
+}
+
+nav .nav-left h3 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+nav .nav-left h3:nth-child(4) {
+  position: relative;
+  
+}
+
+nav .nav-left h3:nth-child(4) span {
+  color: #FFB500;
+}
+
+nav .nav-left h3:nth-child(4)::after {
+  content: "";
+  position: absolute;
+  height: 1%;
+  width: 0%;
+  background-color: black;
+  left: 0;
+  bottom: -0.2rem;
+  transition: all 0.3s ease-in-out;
+}
+
+nav .nav-left h3:nth-child(4):hover::after {
+  width: 100%;
+}
+
+
+nav .nav-left h3:nth-child(2) span {
+  height: 1vw;
+  width: 1vw;
+  background-color: #1daada3f;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.39);
+}
+
+nav .nav-left h3:nth-child(3) span {
+  height: 1vw;
+  width: 1vw;
+  background-color: #1daada3f;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.39);
+}
+
+nav .nav-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.7rem;
+}
+
+nav .nav-right .nav-right1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+}
+
+.nav-right .nav-right1 a {
+  text-decoration: none;
+  color: black;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  word-spacing: 0.4rem;
+  position: relative;
+}
+
+.nav-right .nav-right1 a::after {
+  content: "";
+  position: absolute;
+  height: 1%;
+  width: 0%;
+  background-color: black;
+  left: 0;
+  bottom: -0.2rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-right .nav-right1 a:hover::after {
+  width: 100%;
+}
+
+.nav-right .nav-right2 svg {
+  width: 3rem;
+  transition: all ease 0.2s;
+  cursor: pointer;
+}
+
+.nav-right .nav-right2 svg:hover{
+    scale: 1.2;
+}
+
+.nav-right .nav-right2 {
+  position: relative;
+}
+
+.nav-right .nav-right2 .nav-right-svg-circle {
+  position: absolute;
+  background-color: #FFB500;
+  height: 1rem;
+  width: 1rem;
+  border: 1px solid black;
+  border-radius: 50%;
+  top: 0.3rem;
+  right: 0.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+
+main{
+    background-color: #fbf9eb;
+    min-height: 100vh;
+    width: 100%;
+
+}
+
+.hero{
+    background-image: url('https://www.twoleavestea.com/cdn/shop/files/AlpineBerry.webp?v=1774284236&width=1575.0');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90vh;
+    width: 100%;  
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 4rem 2rem;
+    
+}
+
+.hero-text{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+
+.hero .hero-text h2{
+    width: 30vw;
+    font-size: 5.5rem;
+    font-family: reckless;
+    color: white;
+    font-weight: 400;
+}
+
+.hero .hero-text p{
+    width: 35vw;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 500;
+    font-family: figtree;
+}
+
+.hero .hero-text button{
+    padding: 0.9rem 3.3rem;
+    border: none;
+    border-radius: 2rem;
+    background-color: #2A2857;
+    color: white;
+    font-size: 1.1rem;
+    width: fit-content; 
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+.hero .hero-text button:hover{
+    background-color: #FFFFFF;
+    color: black;
+    border: 1px solid black;
+}
+
