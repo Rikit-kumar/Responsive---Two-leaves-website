@@ -80,3 +80,17 @@
 
   }
 
+  .page2-btn{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 4rem;
+  margin-left: 1rem;
+}
+
+
+.page2-bottom .card{
+  width: 70vw;
+
+}
