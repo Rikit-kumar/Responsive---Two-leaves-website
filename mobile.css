@@ -99,3 +99,30 @@
   width: 70vw;
 
 }
+
+.page2-bottom-btn{
+  height: 5rem;
+}
+
+.page2-bottom-btn button{
+  padding: 1rem 4rem;
+  margin-bottom: 4rem;
+}
+
+.page3{
+  padding: 3rem 0rem;
+}
+
+.page3 .page3-content{
+  width: 90%;
+  gap:2rem;
+}
+
+.content-top input{
+  width: 100%;
+  padding: 1.7rem 1rem;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+

@@ -97,3 +97,15 @@
 
 }
 
+.page2-bottom-btn{
+  height: 10rem;
+}
+
+.page3{
+  padding: 3rem 0rem;
+}
+
+.page3 .page3-content{
+  width: 90%;
+  gap:4rem;
+}
