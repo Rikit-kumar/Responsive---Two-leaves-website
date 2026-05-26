@@ -10,7 +10,7 @@
 
 @font-face {
   font-family: midnight;
-  src: url(./fonts/midnight-sans-rd-12-medium-trial.otf)
+  src: url(./fonts/midnight-sans-rd-12-medium-trial.otf);
 }
 
 * {
@@ -30,13 +30,13 @@ body {
   margin: 0;
 }
 
-::selection{
-  background-color: #FFB500;
+::selection {
+  background-color: #ffb500;
   color: white;
 }
 
 nav {
-    margin-top: 0.5rem;
+  margin-top: 0.5rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -59,8 +59,8 @@ nav .nav-left {
   gap: 2rem;
 }
 
-nav .nav-left .nav-left-mobile{
-    display: none;
+nav .nav-left .nav-left-mobile {
+  display: none;
 }
 
 nav .nav-left h3 {
@@ -71,11 +71,10 @@ nav .nav-left h3 {
 
 nav .nav-left h3:nth-child(4) {
   position: relative;
-  
 }
 
 nav .nav-left h3:nth-child(4) span {
-  color: #FFB500;
+  color: #ffb500;
 }
 
 nav .nav-left h3:nth-child(4)::after {
@@ -92,7 +91,6 @@ nav .nav-left h3:nth-child(4)::after {
 nav .nav-left h3:nth-child(4):hover::after {
   width: 100%;
 }
-
 
 nav .nav-left h3:nth-child(2) span {
   height: 1vw;
@@ -155,8 +153,8 @@ nav .nav-right .nav-right1 {
   cursor: pointer;
 }
 
-.nav-right .nav-right2 svg:hover{
-    scale: 1.2;
+.nav-right .nav-right2 svg:hover {
+  scale: 1.2;
 }
 
 .nav-right .nav-right2 {
@@ -165,7 +163,7 @@ nav .nav-right .nav-right1 {
 
 .nav-right .nav-right2 .nav-right-svg-circle {
   position: absolute;
-  background-color: #FFB500;
+  background-color: #ffb500;
   height: 1rem;
   width: 1rem;
   border: 1px solid black;
@@ -179,87 +177,82 @@ nav .nav-right .nav-right1 {
   font-weight: 600;
 }
 
-
-main{
-    background-color: #fbf9eb;
-    min-height: 100vh;
-    width: 100%;
-
+main {
+  background-color: #fbf9eb;
+  min-height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
 }
 
-.hero{
-    background-image: url('https://www.twoleavestea.com/cdn/shop/files/AlpineBerry.webp?v=1774284236&width=1575.0');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 90vh;
-    width: 100%;  
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    padding: 4rem 2rem;
-    
+.hero {
+  background-image: url("https://www.twoleavestea.com/cdn/shop/files/AlpineBerry.webp?v=1774284236&width=1575.0");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 4rem 2rem;
 }
 
-.hero-text{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    gap: 1.2rem;
+.hero-text {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.2rem;
 }
 
-
-.hero .hero-text h2{
-    width: 30vw;
-    font-size: 5.5rem;
-    font-family: reckless;
-    color: white;
-    font-weight: 400;
+.hero .hero-text h2 {
+  width: 30vw;
+  font-size: 5.5rem;
+  font-family: reckless;
+  color: white;
+  font-weight: 400;
 }
 
-.hero .hero-text p{
-    width: 35vw;
-    font-size: 1.2rem;
-    color: white;
-    font-weight: 500;
-    font-family: figtree;
+.hero .hero-text p {
+  width: 35vw;
+  font-size: 1.2rem;
+  color: white;
+  font-weight: 500;
+  font-family: figtree;
 }
 
-.hero .hero-text button{
-    padding: 0.9rem 3.3rem;
-    border: none;
-    border-radius: 2rem;
-    background-color: #2A2857;
-    color: white;
-    font-size: 1.1rem;
-    width: fit-content; 
-    border: 1px solid transparent;
-    cursor: pointer;
+.hero .hero-text button {
+  padding: 0.9rem 3.3rem;
+  border: none;
+  border-radius: 2rem;
+  background-color: #2a2857;
+  color: white;
+  font-size: 1.1rem;
+  width: fit-content;
+  border: 1px solid transparent;
+  cursor: pointer;
 }
 
-.hero .hero-text button:hover{
-    background-color: #FFFFFF;
-    color: black;
-    border: 1px solid black;
+.hero .hero-text button:hover {
+  background-color: #ffffff;
+  color: black;
+  border: 1px solid black;
 }
 
-
-.page2{
+.page2 {
   width: 100%;
   min-height: 100vh;
   border-bottom: 2px solid rgb(0, 0, 0);
-  
 }
 
-.page2-top{
+.page2-top {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 48vh;
 }
 
-.page2-top h2{
+.page2-top h2 {
   font-size: clamp(2rem, 4vw, 4rem);
   font-family: reckless;
   font-weight: 400;
@@ -267,7 +260,7 @@ main{
   text-align: center;
 }
 
-.page2-btn{
+.page2-btn {
   width: 100%;
   display: flex;
   align-items: center;
@@ -275,24 +268,22 @@ main{
   margin-bottom: 4rem;
 }
 
-.page2-btn button{
+.page2-btn button {
   display: flex;
   padding: 0.1rem 0.3rem;
   border: none;
-  background-color: #DAAEEA;
+  background-color: #daaeea;
   font-size: clamp(2rem, 4vw, 3.4rem);
-  width: fit-content; 
+  width: fit-content;
   border: 1px solid black;
   text-transform: uppercase;
   font-weight: 700;
   font-family: midnight;
   transform: rotate(-2deg);
   border-radius: 0.6rem;
-
 }
 
-
-.page2-bottom{
+.page2-bottom {
   margin: 0rem 2rem;
   display: flex;
   align-items: flex-start;
@@ -301,25 +292,22 @@ main{
   height: 80vh;
   overflow-x: auto;
   overflow-y: hidden;
-   scrollbar-width: none; 
+  scrollbar-width: none;
   -ms-overflow-style: none;
 
   scroll-behavior: smooth;
 }
 
-
-
-.page2-bottom .card{
+.page2-bottom .card {
   height: 70vh;
   width: 22vw;
   display: flex;
   flex-direction: column;
   gap: 1rem;
   flex-shrink: 0;
-
 }
 
-.page2-bottom .card .card-top{
+.page2-bottom .card .card-top {
   height: 50vh;
   width: 100%;
   background-color: rgb(193, 238, 145);
@@ -328,14 +316,14 @@ main{
   position: relative;
 }
 
-.card-top .top{
+.card-top .top {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0.8rem 0.8rem;
 }
 
-.card-top .top .top-left{
+.card-top .top .top-left {
   padding: 0.2rem 0.5rem;
   font-size: 1.3rem;
   background-color: white;
@@ -346,11 +334,11 @@ main{
   text-transform: uppercase;
 }
 
-.card-top .top .top-right{
+.card-top .top .top-right {
   font-size: 1rem;
 }
 
-.card-top img{
+.card-top img {
   width: 100%;
   height: 65%;
   object-fit: contain;
@@ -358,12 +346,11 @@ main{
   transition: all 0.2s ease-in;
 }
 
-.card:hover img{
+.card:hover img {
   transform: scale(1.3);
 }
 
-
-.card-top .bottom{
+.card-top .bottom {
   position: absolute;
   bottom: 1rem;
   right: 1rem;
@@ -374,81 +361,78 @@ main{
   flex-direction: column;
   align-items: center;
   border: 1px solid black;
-  border-radius: 0.4rem; 
+  border-radius: 0.4rem;
   font-family: figtree;
   transition: background-color ease 0.2s;
 }
 
-.card-top .bottom:hover{
-  background-color: #2A2857;
+.card-top .bottom:hover {
+  background-color: #2a2857;
   color: white;
 }
 
-
-.card .card-bottom{
+.card .card-bottom {
   display: flex;
   flex-direction: column;
-  gap: 0.7rem;  
+  gap: 0.7rem;
   font-family: reckless;
   width: 100%;
-
 }
 
-.card .card-bottom h3{
+.card .card-bottom h3 {
   font-size: clamp(1rem, 2vw, 1.6rem);
   font-weight: 400;
   text-transform: capitalize;
 }
 
-.card .card-bottom h5{
+.card .card-bottom h5 {
   font-size: clamp(0.8rem, 2vw, 1rem);
   font-weight: 400;
   letter-spacing: 0.1rem;
 }
 
-.card .card-bottom p{
-  width:100%;
+.card .card-bottom p {
+  width: 100%;
   font-size: clamp(0.6rem, 1.5vw, 0.9rem);
   font-weight: 400;
   letter-spacing: 0.1rem;
   text-transform: capitalize;
 }
 
-.card:nth-child(2) .card-top{
-  background-color: #FFD884;
+.card:nth-child(2) .card-top {
+  background-color: #ffd884;
 }
 
-.card:nth-child(3) .card-top{
-  background-color: #B0E8C1;
+.card:nth-child(3) .card-top {
+  background-color: #b0e8c1;
 }
 
-.card:nth-child(4) .card-top{
-  background-color: #C1E4F8;
+.card:nth-child(4) .card-top {
+  background-color: #c1e4f8;
 }
 
-.card:nth-child(5) .card-top{
-  background-color: #FFCB96;
+.card:nth-child(5) .card-top {
+  background-color: #ffcb96;
 }
 
-.card:nth-child(6) .card-top{
-  background-color: #FFD1B8;
+.card:nth-child(6) .card-top {
+  background-color: #ffd1b8;
 }
 
-.page2-bottom-btn{
+.page2-bottom-btn {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 30vh;
-  
 }
 
-.page2-bottom-btn button{
+.page2-bottom-btn button {
   padding: 1rem 3rem;
   border: none;
-  background-color:#2A2857;
+  background-color: #2a2857;
   font-size: clamp(1.2rem, 3vw, 1.4rem);
-  width: fit-content; 
+  width: fit-content;
   border: 1px solid black;
   font-family: recless;
   border-radius: 2rem;
@@ -456,16 +440,14 @@ main{
   margin-bottom: 3rem;
 }
 
-.page2-bottom-btn button:hover{
+.page2-bottom-btn button:hover {
   background-color: white;
-  color: #2A2857;
-  border: 1px solid #2A2857;
-  box-shadow: inset 0 0 0 2px #2A2857;
-  transition: all ease 0.2s;
+  color: #2a2857;
+  border: 1px solid #2a2857;
 }
 
-.page3{
-  min-height : 100vh;
+.page3 {
+  min-height: 100vh;
   width: 100vw;
   /* background-color: #DAAEEA; */
   /* margin-top: 10rem; */
@@ -473,11 +455,10 @@ main{
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 5rem 0rem;
-  
+  padding: 5rem 0rem 15rem 0rem;
 }
 
-.page3 .page3-content{
+.page3 .page3-content {
   width: 70%;
   height: 100vh;
   /* background-color: tomato; */
@@ -487,10 +468,9 @@ main{
   justify-content: center;
   flex-direction: column;
   gap: 10rem;
-
 }
 
-.page3-content .content-top{
+.page3-content .content-top {
   width: 100%;
   height: 50vh;
   display: flex;
@@ -498,43 +478,39 @@ main{
   justify-content: center;
   flex-direction: column;
   gap: 2.5rem;
-  
-
 }
 
-.content-top .top-btn{
+.content-top .top-btn {
   width: 100%;
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
 }
 
-.top-btn button{
+.top-btn button {
   display: flex;
   padding: 0.1rem 0.5rem;
   border: none;
-  background-color: #FF7F31;
+  background-color: #ff7f31;
   font-size: clamp(2rem, 4vw, 3.4rem);
-  width: fit-content; 
+  width: fit-content;
   border: 1px solid black;
   text-transform: uppercase;
   font-weight: 700;
   font-family: midnight;
   transform: rotate(-2deg);
   border-radius: 0.6rem;
-
 }
 
-.content-top h3{
+.content-top h3 {
   font-size: clamp(2rem, 4vw, 5rem);
   font-weight: 300;
   font-family: reckless;
   font-weight: 100;
   width: 80%;
-
 }
 
-.content-top input{
+.content-top input {
   padding: 2rem 8rem 2rem 2rem;
   background-color: transparent;
   border-radius: 1rem;
@@ -547,18 +523,18 @@ main{
   font-family: reckless;
 }
 
-.content-top input:focus{
+.content-top input:focus {
   outline: none;
-  border: 2px solid #FF7F31;
+  border: 2px solid #ff7f31;
 }
 
-.content-top input::placeholder{
+.content-top input::placeholder {
   font-size: 2rem;
   font-weight: 300;
   font-family: reckless;
 }
 
-.page3 .content-bottom{
+.page3 .content-bottom {
   width: 100%;
   height: 60vh;
   display: flex;
@@ -568,14 +544,13 @@ main{
   gap: 2.5rem;
 }
 
-.content-bottom h4{
+.content-bottom h4 {
   font-size: clamp(0.9rem, 2vw, 1rem);
   text-transform: uppercase;
   font-weight: 300;
-
 }
 
-.content-bottom-btns{
+.content-bottom-btns {
   width: 100%;
   display: flex;
   align-items: flex-start;
@@ -584,7 +559,7 @@ main{
   gap: 0.5rem;
 }
 
-.content-bottom-btns .btn{
+.content-bottom-btns .btn {
   padding: 0.5rem 1.5rem;
   border-radius: 0.8rem;
   border: 1px solid black;
@@ -592,9 +567,108 @@ main{
   text-transform: capitalize;
   font-weight: 100;
   background-color: #c0dbffcc;
-  
 }
 
-.content-bottom-btns .btn:hover{
+.content-bottom-btns .btn:hover {
   background-color: #71b2fcbe;
+}
+
+.page4 {
+  height: 200vh;
+  width: 100%;
+  background-image: url("https://www.twoleavestea.com/cdn/shop/files/adam-vradenburg-_gu7E90QChU-unsplash_1_1.webp?v=1771592855&width=1600");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 1rem 3rem 3rem 3rem;
+  position: relative;
+}
+
+.page4 .page4-heading h2{
+  font-size: clamp(4rem, 20vw, 12rem);
+  text-align: center;
+  font-family: midnight;
+  line-height: 10rem;
+  color: white;
+}
+
+.page4 .page4-para p{
+  font-size: clamp(2.2rem, 4vw, 4rem);
+  text-align: center;
+  font-family: midnight;
+  color: white;
+  font-weight: 100;
+}
+
+.page4-bottom{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10rem;
+}
+
+.page4-bottom .icons{
+  display: flex;
+  gap: 5rem;
+}
+
+.page4-bottom button{
+  padding: 1rem 3.5rem;
+  border-radius: 2rem;
+  border: 1px solid black;
+  font-size: clamp(1rem, 5vw, 1.5rem);
+  text-transform: capitalize;
+  font-weight: 100;
+  background-color: white;
+  cursor: pointer;
+}
+
+.page4-bottom button:hover{
+  background-color:#2a2857;
+  color: white;
+}
+
+.page4-floating-img img{
+  z-index: 99;
+  position: absolute;
+  height: 20vh;
+  width: 20vw;
+  top: -5%;
+  right: 5%;
+  animation: floating 3s infinite ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 650px) {
+  .content-bottom-btns .mobile-hide {
+    display: none;
+  }
 }

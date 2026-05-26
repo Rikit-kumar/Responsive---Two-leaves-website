@@ -111,6 +111,7 @@
 
 .page3{
   padding: 3rem 0rem;
+
 }
 
 .page3 .page3-content{
@@ -126,3 +127,19 @@
   margin-bottom: 1rem;
 }
 
+.content-bottom-btns .mobile-hide{
+  display: none;
+}
+
+.page4{
+  background-image: url('https://www.twoleavestea.com/cdn/shop/files/adam-vradenburg-_gu7E90QChU-unsplash_1_1.webp?v=1771592855&width=900');
+  padding: 1rem 3rem 3rem 2rem;
+}
+
+.page4 .page4-heading h2{
+  line-height: 6rem;
+}
+
+.page4-bottom .icons{
+  gap:2.5rem;
+}
