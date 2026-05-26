@@ -114,3 +114,33 @@
   background-image: url('https://www.twoleavestea.com/cdn/shop/files/adam-vradenburg-_gu7E90QChU-unsplash_1_1.webp?v=1771592855&width=1200');
   padding: 1rem 3rem 3rem 2rem;
 }
+
+.page5-bottom .page5-card{
+  width:50%;
+}
+
+.card-bottom-right p{
+  font-size: 0.8rem;
+}
+
+.page6{
+  flex-direction: column;
+}
+
+.page6-left{
+  height: 65%;
+  width: 100%;
+}
+
+.page6-right{
+  height: 35%;
+  width: 100%;
+  padding-left: 0rem;
+  
+  align-items: center;
+
+}
+
+.page6-right h2{
+  text-align: center;
+}

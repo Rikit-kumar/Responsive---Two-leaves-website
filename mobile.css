@@ -143,3 +143,41 @@
 .page4-bottom .icons{
   gap:2.5rem;
 }
+
+.page5{
+  padding: 5rem 0.5rem;
+}
+
+.card-top h3{
+  font-size: 1.7rem;
+}
+
+.page5-bottom .page5-card{
+  width:80%;
+}
+
+.card-bottom-right p{
+  font-size: 0.6rem;
+}
+
+.page6{
+  flex-direction: column;
+}
+
+.page6-left{
+  height: 50%;
+  width: 100%;
+}
+
+.page6-right{
+  height: 50%;
+  width: 100%;
+  padding-left: 0rem;
+  
+  align-items: center;
+
+}
+
+.page6-right h2{
+  text-align: center;
+}
