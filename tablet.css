@@ -144,3 +144,82 @@
 .page6-right h2{
   text-align: center;
 }
+
+.page7{
+  padding: 3rem 0.5rem;
+  min-height: 110vh;
+}
+
+
+.page7-top h3{
+ line-height: 3.5rem;
+ font-weight: 600;
+
+}
+
+
+.page7 .page7-bottom{
+  flex-direction: column;
+  min-height: 95vh;
+  justify-content: flex-start;
+  gap: 3rem;
+  width: 90%;
+}
+
+.page7 .left-icon{
+  display: none;
+}
+
+.page7 .right-icon{
+  display: none;
+}
+
+.page7-bottom .page7-bottom-left{
+  width: 100%;
+  min-height: 30vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+
+
+.page7-bottom-left .mobile-img{
+  display: none;
+}
+
+.page7-bottom-left .desktop-img{
+  display: initial;
+}
+
+.page7-bottom-left .desktop-img{
+  width: 90%;
+  position: absolute;
+  top: -15%;
+  transform: translateX(-10%);
+}
+
+
+.page7-bottom .page7-bottom-right{
+  width: 100%;
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 1.1rem;
+}
+
+.page7-bottom-right .nice-btn {
+  align-items: center;
+  justify-content: center;
+}
+
+.page7-bottom-right h3{
+  line-height: 3rem;
+}
+
+.page7-bottom-right p{
+  width: 80%;
+}
