@@ -115,6 +115,10 @@
   padding: 1rem 3rem 3rem 2rem;
 }
 
+.page5{
+  padding: 5rem 1rem;
+}
+
 .page5-bottom .page5-card{
   width:50%;
 }
@@ -233,3 +237,69 @@
   width: 40vw;
   
 }
+
+.page9{
+  flex-direction: column;
+  position: static;
+}
+
+.page9-img{
+  height: 50%;
+  width: 100%;
+}
+
+
+
+.page9 .page9-card{
+  height: 50%;
+  width :100%;
+  position: static;
+  margin-left: 0rem;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.page9-card h3{
+  width: 80%;
+  text-align: center;
+
+}
+
+.page9-card button{
+  padding: 1rem 4rem;
+}
+
+.footer-top{
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .footer-top input{
+    width: 70%;
+    padding: 1rem;
+  }
+
+  .footer-center{
+    padding: 3rem 2rem;
+  }
+
+  .center-box{
+    gap: 3rem;
+  }
+
+  .box-left{
+    width: 40%;
+  }
+
+  .main-link h3{
+    font-size: 1.7rem;
+  }
+
+  .footer-bottom{
+    min-height: 35vh;
+  }
+
+  .footor-logo img{
+    width: 200px;
+  }

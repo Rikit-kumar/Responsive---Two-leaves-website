@@ -32,7 +32,7 @@
   }
 
   .hero {
-    background-image: url("https://www.twoleavestea.com/cdn/shop/files/AlpineBerry_mobile.webp?v=1774284087&width=511");
+    background-image: url("https://www.twoleavestea.com/cdn/shop/files/AlpineBerry_mobile.webp?v=1774284087&width=720");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -283,3 +283,97 @@
 .page8-btm-btn button{
   padding: 1rem 2.5rem;
 }
+
+.page9{
+  flex-direction: column;
+  position: static;
+}
+
+.page9-img{
+  height: 50%;
+  width: 100%;
+}
+
+
+
+.page9 .page9-card{
+  height: 50%;
+  width :100%;
+  position: static;
+  margin-left: 0rem;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.page9-card h3{
+  width: 100%;
+  text-align: center;
+
+}
+
+.page9-card button{
+  padding: 1rem 4rem;
+}
+
+footer{
+    padding-top: 3rem;
+  }
+
+  .footer-top{
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .footer-top input{
+    width: 100%;
+    padding: 1rem;
+    font-size: 0.9rem;
+  }
+
+  .footer-top-icons{
+    gap: .8rem;
+  }
+
+  .footer-top-icons .icon{
+    height: 2.7rem;
+    width: 2.7rem;
+  }
+
+  .footer-top-icons .icon i{
+    font-size: 1.3rem;
+  }
+
+  .footer-center{
+    width: 95%;
+    padding: 2rem 1.5rem;
+  }
+
+  .center-box{
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+
+  .box-left{
+    width: 100%;
+  }
+
+  .main-link h3{
+    font-size: 1.5rem;
+  }
+
+  .sublinks p{
+    font-size: 0.95rem;
+  }
+
+  .footer-bottom{
+    min-height: 25vh;
+  }
+
+  .footor-logo{
+    top: 10%;
+  }
+
+  .footor-logo img{
+    width: 150px;
+  }
