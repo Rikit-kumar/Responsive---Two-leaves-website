@@ -256,3 +256,30 @@
 .page7-bottom-right p{
   width: 92%;
 }
+
+.page8{
+  padding: 3rem 0.8rem;
+}
+
+.page8 .page8-top{
+  height: 20vh; 
+  margin-top: 5rem;
+}
+
+.page8 .page8-top h2{
+  width: 100%;
+  text-align: start;
+}
+
+.page8-bottom .page8-card{
+  width: 70vw;
+  
+}
+
+.page8 .page8-bottom{
+  gap: 0.9rem;
+}
+
+.page8-btm-btn button{
+  padding: 1rem 2.5rem;
+}

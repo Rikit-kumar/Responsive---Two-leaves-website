@@ -299,7 +299,7 @@ main {
 }
 
 .page2-bottom .card {
-  height: 70vh;
+  height: 77vh;
   width: 22vw;
   display: flex;
   flex-direction: column;
@@ -377,6 +377,7 @@ main {
   gap: 0.7rem;
   font-family: reckless;
   width: 100%;
+  padding: 0rem 0.3rem;
 }
 
 .card .card-bottom h3 {
@@ -393,8 +394,8 @@ main {
 
 .card .card-bottom p {
   width: 100%;
-  font-size: clamp(0.6rem, 1.5vw, 0.9rem);
-  font-weight: 400;
+  font-size: clamp(0.8rem, 2.5vw, 1rem);
+  font-weight: 40;
   letter-spacing: 0.1rem;
   text-transform: capitalize;
 }
@@ -902,7 +903,19 @@ gap: 1rem;
   justify-content: center;
   flex-direction: column;
   gap: 3rem;
+  position: relative;
 }
+
+.page7 .left-img{
+  position: absolute;
+  height: 18%;
+  width: 18%;
+  object-fit: contain;
+  top: -8%;
+  right: 5%;
+  
+}
+
 
 
 .page7 .page7-top{
@@ -1066,6 +1079,171 @@ gap: 1rem;
 .right-icon i{
   font-size: 1.5rem;
 }
+
+.page8{
+  min-height: 100vh;
+  width: 100%;
+  padding: 1rem 2rem;
+  
+}
+
+.page8 .page8-top{
+  height: 40vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 4rem;
+}
+
+.page8 .page8-top h2{
+  font-size: clamp(2rem, 4vw, 5.5rem);
+  width: 70%;
+  font-weight: 100;
+  font-family: reckless;
+}
+
+
+.page8 .page8-bottom{
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2rem;
+
+  overflow-x: auto;
+  overflow-y: hidden;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  
+}
+
+.page8-bottom .page8-card{
+  height: 65%;
+  width: 22%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 1rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  scroll-snap-align: start;
+}
+
+.page8-card .card-top{
+  height: 80%;
+  background-color: #2a2857;
+  width : 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  border-bottom: 1px solid black;
+  overflow: hidden;
+}
+
+.page8-card .card-top span{
+  position: absolute;
+  top: 3%;
+  left: 3%;
+  padding: 0.3rem 0.3rem;
+  background-color: white;
+  border: 1px solid black;
+  z-index: 10;
+  font-size: 1.5rem;
+  border-radius: 0.6rem;
+  text-transform: uppercase;
+  font-family: midnight;
+  font-weight: 500;
+  z-index: 20;
+   transition: all 0.2s ease;
+}
+
+.card-top img{
+  height: 75%;
+  width: 75%;
+  object-fit: contain;
+  transition: transform 0.2s ease;
+}
+
+.page8-card:hover .card-top img{
+  transform: scale(1.2);
+} 
+
+.page8-card:hover .card-top span{
+  transform: rotate(-3deg);
+}
+
+.page8-card .card-bottom{
+  height: 20%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #CCE3FF;
+}
+
+.card-bottom p{
+  padding: 0.5rem 0.5rem;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  font-family: figtree;
+  font-weight: 100;
+}
+
+
+.page8-card:nth-child(2) .card-top img{
+  height:100%;
+  width:100%;
+  object-fit: cover;
+}
+
+.page8-card:nth-child(3) .card-top img{
+  height:100%;
+  width:100%;
+  object-fit: cover;
+}
+
+.page8-btm-btn{
+  margin-bottom: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page8-btm-btn button{
+  padding: 0.8rem 3rem;
+  border: 1px solid black;
+  border-radius: 4rem;
+  font-size: 1.2rem;
+  background-color: transparent;
+  background-color:#2a2857;
+  cursor: pointer;
+  font-family: figtree;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: white;
+  transition: all 0.2s ease;
+}
+
+.page8-btm-btn button:hover{
+  background-color: white;
+  color: #2a2857;
+  border: 1px solid #2a2857;
+}
+
+
+
+
+
+
 
 
 

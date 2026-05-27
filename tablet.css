@@ -223,3 +223,13 @@
 .page7-bottom-right p{
   width: 80%;
 }
+
+.page8 .page8-top{
+  height: 20vh; 
+  margin-top: 5rem;
+}
+
+.page8-bottom .page8-card{
+  width: 40vw;
+  
+}
